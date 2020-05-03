@@ -203,12 +203,7 @@ Confusion matrix for validation dataset:
 Validation accuracy 90.44585987261146
 
 ## Analysis:
-VGG-16
-Resenet
-BCEWithLogitsLoss
-90.28 %
-91.87 %
-Focal Loss
-91.24 %
-90.44 %
 
+|                   | VGG-16  | Resnet18 |
+| BCEWithLogitsLoss | 90.28 % | 91.24 %  |
+| Focal Loss        | 91.87 % | 90.44 %  |
