@@ -101,7 +101,7 @@ Confusion matrix for validation dataset:
 [20  414]
 
 [415  21]
-[ 13 179]
+[13  179]
 ```
 Validation accuracy 91.87898089171975
 
@@ -109,51 +109,52 @@ Validation accuracy 91.87898089171975
 Complete end-to-end architecture is finetuned on the dataset using learning rate of 0.00123 and momentum 0.9
 Layer structure used for this model is
 
-Linear[25088, 4096]
-ReLU
-Dropout[p=0.5]
-Linear[4096, 4096]
-ReLU
-Dropout[p=0.5]
-Linear[4096, 3]
-
-
-
-
-
-
+- Linear[25088, 4096]
+- ReLU
+- Dropout[p=0.5]
+- Linear[4096, 4096]
+- ReLU
+- Dropout[p=0.5]
+- Linear[4096, 3]
 
 Loss plots for training and validation dataset:
- 
+
+![9](/Images/9.png)
+![10](/Images/10.png)
 
 Accuracy plots for training and validation dataset:
 
+![11](/Images/11.png)
+![12](/Images/12.png)
+
 Confusion matrix for training dataset:
 
+```bash
 [5998  173]
-[2          27]
+[2      27]
 
 [1761  385]
-[ 239 3815]
+[239  3815]
 
 [3823  231]
 [377  1769]
-
+```
 Training accuracy 88.08064516129032
 
 Confusion matrix for validation dataset:
 
+```bash
 [600  28]
-[  0      0]
+[0     0]
 [185  18]
-[ 15 410]
+[15  410]
 
 [410  18]
-[ 18 182]
-
+[18  182]
+```
 Validation accuracy 91.24203821656052
 
-Resnet18 with Focal Loss:
+## Resnet18 with Focal Loss:
 Complete end-to-end architecture is finetuned on the dataset using learning rate of 0.00125 and momentum 0.9
 Layer structure used for this model is
 
@@ -164,51 +165,44 @@ Linear[390, 3]
 
 Loss plots for training and validation dataset:
 
-
-
-
-
-
-
-
-
-
-
+![13](/Images/13.png)
+![14](/Images/14.png)
 
 Accuracy plots for training and validation dataset:
 
-
+![15](/Images/15.png)
+![16](/Images/16.png)
 
 Confusion matrix for training dataset:
 
+```bash
 [5989  152]
-[11        48]
+[11     48]
 
 [1554  212]
-[ 446 3988]
+[446  3988]
 
 [3990  446]
-[ 210 1554]
+[210  1554]
+```
 
 Training Accuracy 87.03225806451613
 
 Confusion matrix for validation dataset:
 
+```bash
 [598  19]
-[2        9]
+[2     9]
 
 [167  17]
-[ 33 411]
+[33  411]
 
 [411  33]
 [17  167]
-
+```
 Validation accuracy 90.44585987261146
 
-Analysis:
-
-
-
+## Analysis:
 VGG-16
 Resenet
 BCEWithLogitsLoss
