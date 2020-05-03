@@ -24,46 +24,39 @@ Loss plots for training and validation dataset:
 ![1](/Images/1.png)
 ![2](/Images/2.png)
  
-
-
-
-
-
-
-
 Accuracy plots for training and validation dataset:
+
+![3](/Images/3.png)
+![4](/Images/4.png)
 
 Confusion matrix for training dataset:
 
 [6000  190]
-[0          10]
+[0      10]
 
 [1655  206]
-[ 345 3994]
+[345  3994]
 
 [3995  350]
-[ 205 1650]
+[205  1650]
 
 Training accuracy 88.95161290322581
 
 Confusion matrix for validation dataset:
 
 [600  28]
-[0        0]
+[0     0]
 
 [174  12]
 [26  416]
 
 [415  26]
-[ 13 174]
+[13  174]
 
 Validation accuracy 90.28662420382166
 
-
-
-
-
 Resnet18 with BCEWithLogitsLoss:
+
 Complete end-to-end architecture is finetuned on the dataset using learning rate of 0.00125 and momentum 0.9
 Layer structure used for this model is
 
