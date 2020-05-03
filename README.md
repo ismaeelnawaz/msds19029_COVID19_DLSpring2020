@@ -21,8 +21,8 @@ Layer structure used for this model is
 
 Loss plots for training and validation dataset:
 
-![1](/images/1.png)
-![2](/images/2.png)
+![1](/Images/1.png)
+![2](/Images/2.png)
  
 
 
