@@ -2,19 +2,22 @@
 
 # Covid-19 Classification with Focal Loss and BCEWithLogitsLoss
 
-Dataset: https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO
+## Dataset 
+https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO
+## Weights
 
-VGG-16 with BCEWithLogitsLoss:
+
+## VGG-16 with BCEWithLogitsLoss:
 Complete end-to-end architecture is finetuned on the dataset using learning rate of 0.00123 and momentum 0.9
-Layer structure used for this model is
 
-Linear[25088, 4096]
-ReLU
-Dropout[p=0.5]
-Linear[4096, 4096]
-ReLU
-Dropout[p=0.5]
-Linear[4096, 3]
+Layer structure used for this model is
+- Linear[25088, 4096]
+- ReLU
+- Dropout[p=0.5]
+- Linear[4096, 4096]
+- ReLU
+- Dropout[p=0.5]
+- Linear[4096, 3]
 
 Loss plots for training and validation dataset:
  
