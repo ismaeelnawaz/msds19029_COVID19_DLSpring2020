@@ -31,6 +31,7 @@ Accuracy plots for training and validation dataset:
 
 Confusion matrix for training dataset:
 
+```bash
 [6000  190]
 [0      10]
 
@@ -39,11 +40,12 @@ Confusion matrix for training dataset:
 
 [3995  350]
 [205  1650]
-
+```
 Training accuracy 88.95161290322581
 
 Confusion matrix for validation dataset:
 
+```bash
 [600  28]
 [0     0]
 
@@ -52,54 +54,58 @@ Confusion matrix for validation dataset:
 
 [415  26]
 [13  174]
-
+```
 Validation accuracy 90.28662420382166
 
-Resnet18 with BCEWithLogitsLoss:
+## Resnet18 with BCEWithLogitsLoss:
 
 Complete end-to-end architecture is finetuned on the dataset using learning rate of 0.00125 and momentum 0.9
 Layer structure used for this model is
 
-Linear[519, 390]
-ReLU
-Dropout[p=0.5]
-Linear[390, 3]
+- Linear[519, 390]
+- ReLU
+- Dropout[p=0.5]
+- Linear[390, 3]
 
 Loss plots for training and validation dataset:
 
-
+![5](/Images/5.png)
+![6](/Images/6.png)
 
 Accuracy plots for training and validation dataset:
 
-
+![7](/Images/7.png)
+![8](/Images/8.png)
 
 Confusion matrix for training dataset:
 
+```bash
 [5988  126]
-[12        74]
+[12     74]
 
 [1673  247]
 [327  3953]
 
 [3953  325]
 [247  1675]
-
+```
 Training accuracy 89.2741935483871
 
 Confusion matrix for validation dataset:
 
+```bash
 [599  16]
-[1      12]
+[1    12]
 
 [180  14]
 [20  414]
 
 [415  21]
 [ 13 179]
-
+```
 Validation accuracy 91.87898089171975
 
-VGG-16 with Focal Loss:
+## VGG-16 with Focal Loss:
 Complete end-to-end architecture is finetuned on the dataset using learning rate of 0.00123 and momentum 0.9
 Layer structure used for this model is
 
