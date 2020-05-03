@@ -1,5 +1,10 @@
 # Covid-19 Classification
 
+## Dataset 
+https://drive.google.com/open?id=1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK
+## Weights
+https://drive.google.com/open?id=1EvRIr9O-YiphsdCgLvbp6n1dtkgyFfhl
+
 # Covid-19 Classification with Focal Loss and BCEWithLogitsLoss
 
 ## Dataset 
