@@ -205,5 +205,6 @@ Validation accuracy 90.44585987261146
 ## Analysis:
 
 |                   | VGG-16  | Resnet18 |
+|-------------------|---------|----------|
 | BCEWithLogitsLoss | 90.28 % | 91.24 %  |
 | Focal Loss        | 91.87 % | 90.44 %  |
