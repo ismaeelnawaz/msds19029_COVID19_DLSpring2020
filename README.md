@@ -5,7 +5,7 @@
 ## Dataset 
 https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO
 ## Weights
-
+https://drive.google.com/open?id=1psKiqAC-yhiw_g9g6oH4nsxrwz5meFQz
 
 ## VGG-16 with BCEWithLogitsLoss:
 Complete end-to-end architecture is finetuned on the dataset using learning rate of 0.00123 and momentum 0.9
@@ -20,6 +20,9 @@ Layer structure used for this model is
 - Linear[4096, 3]
 
 Loss plots for training and validation dataset:
+
+(/images/1.png)
+(/images/2.png)
  
 
 
